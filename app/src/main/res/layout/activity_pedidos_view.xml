@@ -56,14 +56,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="end">
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/btnVerUbicacion1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ver Ubicacion"
-                    android:backgroundTint="@color/green"/>
+
+                    android:layout_marginEnd="40dp"
+                    android:backgroundTint="@color/green"
+                    android:text="Ver Ubicacion" />
 
                 <Button
                     android:id="@+id/btnCompletar1"

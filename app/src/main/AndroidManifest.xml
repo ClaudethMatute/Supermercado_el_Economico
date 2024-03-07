@@ -62,7 +62,11 @@
             android:exported="false" />
         <activity
             android:name=".Pantalla_Inicio"
-            android:exported="true" />
+            android:exported="false" >
+
+
+        </activity>
+
         <activity
             android:name=".Pantalla_Nueva_Password"
             android:exported="false" />
